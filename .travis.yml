@@ -30,8 +30,8 @@ deploy:
   access_key_id: $AWS_ACCESS_KEY # declared in Travis repo settings
   secret_access_key: $AWS_SECRET_KEY
   region: "ap-northeast-2"
-  app: "restaurant"
-  env: "Restaurant-java8"
-  bucket_name: "elasticbeanstalk-ap-northeast-2-893382876075"  # S3 bucket name
+  app: "Rest3" #앱이름 rest
+  env: "Rest3-env" #환경이름
+  bucket_name: "elasticbeanstalk-ap-northeast-2-050205510106"  # S3 bucket name
   on:
     branch: master
